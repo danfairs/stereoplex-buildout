@@ -1,0 +1,8 @@
+bin/
+.DS_Store*
+*.pyc
+*~
+.svn*
+*.egg-info*
+parts
+develop-eggs
