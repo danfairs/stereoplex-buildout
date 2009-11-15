@@ -6,3 +6,6 @@ bin/
 *.egg-info*
 parts
 develop-eggs
+.installed.cfg
+.mr.developer.cfg
+src/
