@@ -9,3 +9,4 @@ develop-eggs
 .installed.cfg
 .mr.developer.cfg
 src/
+*.db
