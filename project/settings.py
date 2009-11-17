@@ -50,7 +50,9 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 INSTALLED_APPS = (
     'django.contrib.auth',
+    'django.contrib.comments',
     'django.contrib.contenttypes',
+    'django.contrib.markup',
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.admin',
@@ -62,6 +64,7 @@ INSTALLED_APPS = (
     'tagging',
     'djangodblog',
     'disqus',
+    'mingus',
     'basic.inlines',
     'basic.blog',
     'basic.bookmarks',
@@ -84,7 +87,6 @@ INSTALLED_APPS = (
     'honeypot',
     'sugar',
     'quoteme',
-    'mingus',
 )
 
 ### django-markup
@@ -93,3 +95,8 @@ MARKUP_CHOICES = (
     'markdown',
     'textile',
 )
+
+try:
+    from private_settings import *
+except ImportError:
+    pass
