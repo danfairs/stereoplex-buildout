@@ -35,7 +35,7 @@ MIDDLEWARE_CLASSES = (
     'sugar.middleware.debugging.UserBasedExceptionMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
     'djangodblog.middleware.DBLogMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+#    'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -49,6 +49,9 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 INSTALLED_APPS = (
+    # Stereoplex-specific apps
+    'stereoplex',
+
     'django.contrib.auth',
     'django.contrib.comments',
     'django.contrib.contenttypes',
@@ -87,6 +90,7 @@ INSTALLED_APPS = (
     'honeypot',
     'sugar',
     'quoteme',
+    
 )
 
 ### django-markup
