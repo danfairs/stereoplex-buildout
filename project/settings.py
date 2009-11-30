@@ -51,7 +51,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 INSTALLED_APPS = (
     # Stereoplex-specific apps
     'stereoplex',
-    'threadedcomments',
 
     'django.contrib.auth',
     'django.contrib.comments',
@@ -101,7 +100,7 @@ MARKUP_CHOICES = (
     'textile',
 )
 
-COMMENTS_APP = 'threadedcomments'
+COMMENTS_APP = 'stereoplex'
 
 try:
     from private_settings import *
