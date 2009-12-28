@@ -12,7 +12,7 @@ STATIC_URL = '/static/'
 ADMIN_MEDIA_PREFIX = '/admin_media/'
 
 SITE_ID=1
-ROOT_URLCONF = 'mingus.urls'
+ROOT_URLCONF = 'stereoplex.urls'
 TIME_ZONE = 'Europe/London'
 SECRET_KEY = '+bq@r(jph^-*sfj4j%xukecxb0jae9lci&ysy=609hj@3l$47c'
 USE_I18N = False
@@ -51,6 +51,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 INSTALLED_APPS = (
     # Stereoplex-specific apps
     'stereoplex',
+    'tinymce',
 
     'django.contrib.auth',
     'django.contrib.comments',
@@ -98,6 +99,9 @@ MARKUP_CHOICES = (
     'markdown',
     'textile',
 )
+
+# TinyMCE
+TINYMCE_JS_URL = STATIC_URL + 'stereoplex/js/tiny_mce/tiny_mce.js'
 
 COMMENTS_APP = 'stereoplex'
 
