@@ -35,7 +35,6 @@ MIDDLEWARE_CLASSES = (
     'sugar.middleware.debugging.UserBasedExceptionMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
     'djangodblog.middleware.DBLogMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -86,7 +85,6 @@ INSTALLED_APPS = (
     'robots',
     'basic.elsewhere',
     'compressor',
-    'debug_toolbar',
     'contact_form',
     'honeypot',
     'sugar',
