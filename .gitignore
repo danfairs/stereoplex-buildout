@@ -10,3 +10,4 @@ develop-eggs
 .mr.developer.cfg
 src/
 *.db
+out*.xml
