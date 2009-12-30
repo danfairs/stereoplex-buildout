@@ -90,7 +90,8 @@ INSTALLED_APPS = (
     'honeypot',
     'sugar',
     'quoteme',
-    
+
+    'django_nose',
 )
 
 ### django-markup
@@ -104,6 +105,8 @@ MARKUP_CHOICES = (
 TINYMCE_JS_URL = STATIC_URL + 'stereoplex/js/tiny_mce/tiny_mce.js'
 
 COMMENTS_APP = 'stereoplex'
+
+TEST_RUNNER = 'django_nose.run_tests'
 
 try:
     from private_settings import *
