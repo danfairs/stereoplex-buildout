@@ -1,0 +1,39 @@
+BeautifulSoup==3.1.0.1
+FeedParser==4.1
+Markdown==2.0.1
+Pygments==1.1.1
+Werkzeug
+django==1.1.1
+django-debug-toolbar==0.8
+django-disqus
+django-extensions==0.4.1
+django-flatblocks
+django-honeypot
+django-markup
+django-nose
+django-oembed
+django-robots
+django-staticfiles
+django-tagging==0.3
+django-tinymce
+django-view-cache-utils
+python-dateutil==1.4.1
+recaptcha-client
+sorl-thumbnail
+template_utils
+textile==2.1.3
+
+http://dist.repoze.org/PIL-1.1.6.tar.gz
+http://www.aeracode.org/releases/south/south-0.6.2.tar.gz
+
+-e git://github.com:danfairs/stereoplex.git#egg=stereoplex
+-e git://github.com:danfairs/django-mingus.git#egg=mingus
+-e git://github.com:danfairs/django-basic-apps.git#egg=basic
+-e svn+http://django-navbar.googlecode.com/svn/trunk@20#egg=navbar
+-e hg+https://danfairs@bitbucket.org/danfairs/django-proxy#egg=proxy
+-e git+git://github.com/danfairs/django_compressor.git#egg=compressor
+-e git+git://github.com/danfairs/django-google-analytics.git#egg=google_analytics
+-e hg+https://bitbucket.org/ubernostrum/django-contact-form#egg=contact_form
+-e git://github.com:danfairs/django-sugar.git#egg=sugar
+-e git://github.com/montylounge/django-quoteme.git#egg=quoteme
+-e git://github.com/dcramer/django-db-log.git#egg=djangodblog
