@@ -52,7 +52,7 @@ INSTALLED_APPS = (
     # Stereoplex-specific apps
     'stereoplex',
     'tinymce',
-
+    'staticfiles',
     'django.contrib.auth',
     'django.contrib.comments',
     'django.contrib.contenttypes',
